@@ -11,36 +11,36 @@ void checkPassword(String password) {
 
   if (!isUppercase) {
     print('''
-São necessários ${6 - password.length < 0 ? 0 : 6 - password.length} caracteres adicionais para tornar sua senha segura!
-Sua senha é: $password e necessita adicionar uma letra maíscula!\n
+São necessários ${6 - password.length < 0 ? 0 : 6 - password.length} caracteres adicionais para tornar sua senha segura!\n
+Sua senha é $password e necessita adicionar uma letra maíscula!\n
 ''');
     return;
   }
   if (!isLowercase) {
     print('''
-São necessários ${6 - password.length < 0 ? 0 : 6 - password.length} caracteres adicionais para tornar sua senha segura!
-Sua senha é: $password e necessita adicionar uma letra minuscula!\n
+São necessários ${6 - password.length < 0 ? 0 : 6 - password.length} caracteres adicionais para tornar sua senha segura!\n
+Sua senha é $password e necessita adicionar uma letra minuscula!\n
 ''');
     return;
   }
   if (!isNumber) {
     print('''
-São necessários ${6 - password.length < 0 ? 0 : 6 - password.length} caracteres adicionais para tornar sua senha segura!
-Sua senha é: $password e necessita adicionar um número!\n
+São necessários ${6 - password.length < 0 ? 0 : 6 - password.length} caracteres adicionais para tornar sua senha segura!\n
+Sua senha é $password e necessita adicionar um número!\n
 ''');
     return;
   }
   if (!isChar) {
     print('''
-São necessários ${6 - password.length < 0 ? 0 : 6 - password.length} caracteres adicionais para tornar sua senha segura!
-Sua senha é: $password e necessita adicionar um caractere especial!\n
+São necessários ${6 - password.length < 0 ? 0 : 6 - password.length} caracteres adicionais para tornar sua senha segura!\n
+Sua senha é $password e necessita adicionar um caractere especial!\n
 ''');
     return;
   }
   if (!isLength) {
     print('''
-São necessários ${6 - password.length < 0 ? 0 : 6 - password.length} caracteres adicionais para tornar sua senha segura!
-Sua senha é: $password e necessita adicionar mais ${6 - password.length < 0 ? 0 : 6 - password.length} caracteres!\n
+São necessários ${6 - password.length < 0 ? 0 : 6 - password.length} caracteres adicionais para tornar sua senha segura!\n
+Sua senha é $password e necessita adicionar mais ${6 - password.length < 0 ? 0 : 6 - password.length} caracteres!\n
 ''');
     return;
   }
