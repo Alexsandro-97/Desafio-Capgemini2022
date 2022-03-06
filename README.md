@@ -1,5 +1,5 @@
-# Desafio-Capgemini2022
-Repositório para desafio da Capgemini - Formação de Desenvolvedor Java
+# Desafio1-Capgemini2022
+Repositório para o primeiro desafio da Capgemini - Formação de Desenvolvedor Java
 
 ### Linguagem utilizada
 - Dart
